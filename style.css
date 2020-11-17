@@ -1,0 +1,225 @@
+body {
+    background-color: #ffa575;
+    margin: 0px;
+}
+
+#ground {
+    background-color: #142259;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#sun {
+    background-color: #ff7c0a;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.sun-ray {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+
+#first-ray {
+    right: 100px;
+    top: 100px;
+    border-left: 50px solid transparent;
+    border-right: 150px solid #ffd500;
+    border-top: 300px solid transparent;
+}
+
+#second-ray {
+    right: 50px;
+    top: 275px;
+    border-left: 50px solid transparent;
+    border-right: 1080px solid transparent;
+    border-top: 300px solid #ffd500;
+    transform: skewY(-20deg);
+}
+
+#third-ray {
+    right: -255px;
+    top: 256px;
+    border-left: 300px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid #ffd500;
+    transform: skewY(50deg);
+}
+
+#fourth-ray {
+    right: 40px;
+    top: 70px;
+    border-left: 50px solid transform;
+    border-right: 1900px solid transparent;
+    border-top: 300px solid #ffd500;
+}
+
+#fifth-ray {
+    right: 300px;
+    top: -125px;
+    border-left: 300px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid #ffd500;
+    transform: skewX(75deg);
+}
+
+#sixth-ray {
+    right: 100px;
+    top: -75px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 200px solid #ffd500;
+    transform: skewX(20deg);
+}
+
+#seventh-ray {
+    right: 35px;
+    top: -75px;
+    border-left: 30px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 200px solid #ffd500;
+    transform: skewX(-35deg);
+}
+
+#eighth-ray {
+    right: -30px;
+    top: 40px;
+    border-left: 50px solid transparent;
+    border-right: 150px solid #ffd500;
+    border-top: 50px solid transparent;
+}
+
+#boat {
+    width: 175px;
+    height: 250px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+#boat-hull {
+    background-color: #875600;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border: solid 3px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+#boat-inside {
+    background-color: #452c00;
+    margin: 15px auto;
+    border: solid 2px;
+    width: 87%;
+    height: 87%;
+    border-radius: 40px 40px 0px 0px;
+}
+
+#boat-oar {
+    background-color: #2e1d00;
+    position: absolute;
+    border: solid 2px;
+    border-radius: 10px;
+    left: 375px;
+    top: 275px;
+    width: 10px;
+    height: 175px;
+    transform: rotate(-30deg);
+}
+
+#oar-body {
+    background-color: #2e1d00;
+    position: absolute;
+    border: solid 2px;
+    border-radius: 20px 20px 10px 10px;
+    left: 405px;
+    top: 415px;
+    width: 40px;
+    height: 50px;
+    transform: rotate(-30deg);
+}
+
+.discolor1 {
+    background-color: #1b2d75;
+    position: absolute;
+}
+
+.discolor2 {
+    background-color: #101b45;
+    /*background-color: #0c1333;*/
+    position: absolute;
+}
+
+#wave1 {
+    height: 75px;
+    width: 100%;
+    top: 215px;
+}
+
+#wave2 {
+    height: 75px;
+    width: 100%;
+    top: 260px;
+    left: 500px;
+}
+
+#wave3 {
+    height: 75px;
+    width: 100%;
+    top: 100px;
+    right: 200px;
+}
+
+#wave4 {
+    height: 75px;
+    width: 100%;
+    bottom: 100px;
+    right: 100px;
+}
+
+#wave5 {
+    height: 30px;
+    width: 250px;
+}
+
+#wave6 {
+    height: 75px;
+    width: 800px;
+    bottom: 200px;
+    left: 100px;
+}
+
+#wave7 {
+    height: 75px;
+    width: 100%;
+    top: 75px;
+    left: 150px;
+}
+
+#wave8 {
+    height: 75px;
+    width: 100%;
+    bottom: 150px;
+    right: 50px;
+}
+
+#wave9 {
+    height: 75px;
+    width: 100%;
+    bottom: 50px;
+    left: 50px;
+}
+
+#wave10 {
+    height: 75px;
+    width: 300px;
+    top: 200px;
+    right: 0px;
+}
